@@ -1,0 +1,33 @@
+
+@media (max-width:775px){
+    .header .container .content h2{
+        font-size: 45px;
+    }
+    .hosting .content .left{
+        padding-top: 0;
+        text-align: center;
+    }
+    .hosting .content .left h3{
+        font-size: 36px;
+    }
+}
+@media (max-width:1185px){
+    .hosting .content{
+        display: flex;
+        flex-direction:column ;
+    }
+    .adv .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .adv .content .left,
+    .adv .content .right{
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .contact .content .down{
+        flex-direction: column;
+    }
+
+}
